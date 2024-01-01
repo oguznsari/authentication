@@ -7,6 +7,9 @@ npx shadcn-ui@latest init
 
 npx shadcn-ui@latest add button
 npx shadcn-ui@latest add card
+
+npx shadcn-ui@latest add form
+npx shadcn-ui@latest add input
 ```
 
 ## a nice radiant with tailwind
