@@ -20,3 +20,20 @@ npx shadcn-ui@latest add input
       bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-sky-400 to-blue-800"
 ></main>
 ```
+
+## Database Ops
+
+```bash
+npm i -D prisma
+npm i @prisma/client
+npm i @auth/prisma-adapter   # for next auth prisma adaptor 
+
+npx prisma init
+# make changes # create models
+npx prisma generate
+npx prisma db push
+```
+
+[Neon Tech -> free psql provider](https://neon.tech/)<br />
+[Next Auth v4](https://authjs.dev/)<br/>
+[Prisma ORM](https://www.prisma.io/)<br/>
