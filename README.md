@@ -34,6 +34,12 @@ npx prisma init
 npx prisma generate
 npx prisma db push
 
+# db viewer gui on 5555
+npx prisma studio
+
+# reset
+npx prisma migrate reset
+
 # hash pw
 npm i bcrypt
 npm i -D @types/bcrypt # types not delivered by default
