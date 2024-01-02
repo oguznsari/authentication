@@ -32,6 +32,14 @@ npx prisma init
 # make changes # create models
 npx prisma generate
 npx prisma db push
+
+# hash pw
+npm i bcrypt
+npm i -D @types/bcrypt # types not delivered by default
+
+# bcrypt alternative for potential errors
+npm i bcryptjs
+npm i -D @types/bcryptjs
 ```
 
 [Neon Tech -> free psql provider](https://neon.tech/)<br />
