@@ -27,6 +27,7 @@ npx shadcn-ui@latest add input
 npm i -D prisma
 npm i @prisma/client
 npm i @auth/prisma-adapter   # for next auth prisma adaptor 
+npm install next-auth@beta   # upgrade to V5
 
 npx prisma init
 # make changes # create models
@@ -45,3 +46,9 @@ npm i -D @types/bcryptjs
 [Neon Tech -> free psql provider](https://neon.tech/)<br />
 [Next Auth v4](https://authjs.dev/)<br/>
 [Prisma ORM](https://www.prisma.io/)<br/>
+
+```js
+matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api|trpc)(.*)'],
+// this matcher better for middleware -> obtained from Clerk
+// https://clerk.com/docs/references/nextjs/auth-middleware
+```
