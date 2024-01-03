@@ -58,3 +58,8 @@ matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api|trpc)(.*)'],
 // this matcher better for middleware -> obtained from Clerk
 // https://clerk.com/docs/references/nextjs/auth-middleware
 ```
+
+## OAuth Providers
+
+- [Google](https://console.cloud.google.com/)
+- [Github](https://github.com/settings/developers)
