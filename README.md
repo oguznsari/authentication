@@ -67,3 +67,5 @@ matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api|trpc)(.*)'],
 ## Email for verification
 
 - [Resend](https://resend.com/)
+
+TODO: explain steps in summary
