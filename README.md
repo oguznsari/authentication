@@ -63,3 +63,7 @@ matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api|trpc)(.*)'],
 
 - [Google](https://console.cloud.google.com/)
 - [Github](https://github.com/settings/developers)
+
+## Email for verification
+
+- [Resend](https://resend.com/)

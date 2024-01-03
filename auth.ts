@@ -35,15 +35,18 @@ export const {
     },
   },
   callbacks: {
-    // async signIn({ user }) {
-    //   const existingUser = await getUserById(user.id);
+    async signIn({ user, account }) {
+      // Allow OAuth without email verification
+      if (account?.provider !== "credentials") return true;
 
-    //   if (!existingUser || !existingUser.emailVerified) {
-    //     return false;
-    //   }
+      const existingUser = await getUserById(user.id);
+      // Prevent sign in without email verification
+      if (!existingUser || !existingUser.emailVerified) return false;
 
-    //   return true;
-    // },
+      // TODO: Add 2FA check
+
+      return true;
+    },
     async session({ token, session }) {
       console.log({ sesTok: token });
       if (token.sub && session.user) {
