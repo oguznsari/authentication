@@ -23,6 +23,8 @@ npx shadcn-ui@latest add sonner
 
 npx shadcn-ui@latest add switch
 npx shadcn-ui@latest add select
+
+npx shadcn-ui@latest add dialog
 ```
 
 ## a nice radiant with tailwind
