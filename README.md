@@ -10,6 +10,10 @@ npx shadcn-ui@latest add card
 
 npx shadcn-ui@latest add form
 npx shadcn-ui@latest add input
+
+# for user components -> login logout
+npx shadcn-ui@latest add dropdown-menu
+npx shadcn-ui@latest add avatar
 ```
 
 ## a nice radiant with tailwind
