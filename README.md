@@ -20,6 +20,9 @@ npx shadcn-ui@latest add badge
 
 # better toast
 npx shadcn-ui@latest add sonner
+
+npx shadcn-ui@latest add switch
+npx shadcn-ui@latest add select
 ```
 
 ## a nice radiant with tailwind
