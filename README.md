@@ -17,6 +17,9 @@ npx shadcn-ui@latest add avatar
 
 # for ON-OFF switch 2FA
 npx shadcn-ui@latest add badge
+
+# better toast
+npx shadcn-ui@latest add sonner
 ```
 
 ## a nice radiant with tailwind
