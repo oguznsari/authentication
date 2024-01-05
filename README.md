@@ -14,6 +14,9 @@ npx shadcn-ui@latest add input
 # for user components -> login logout
 npx shadcn-ui@latest add dropdown-menu
 npx shadcn-ui@latest add avatar
+
+# for ON-OFF switch 2FA
+npx shadcn-ui@latest add badge
 ```
 
 ## a nice radiant with tailwind
