@@ -83,8 +83,8 @@ matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api|trpc)(.*)'],
 
 - [Resend](https://resend.com/)
 
-TODO: explain steps in summary
-
 ## Very fast alternative with extra functionalities
 
 - [Clerk](https://clerk.com/)
+
+TODO: explain steps in summary
